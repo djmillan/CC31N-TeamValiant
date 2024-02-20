@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\cc3-1b-millandj\\CC31N-TeamName\\TheValient\\TheValient.csproj": {}
+    "C:\\cc3-1b-millandj\\CC31N-TeamName\\TheValiant\\TheValient.csproj": {}
   },
   "projects": {
-    "C:\\cc3-1b-millandj\\CC31N-TeamName\\TheValient\\TheValient.csproj": {
+    "C:\\cc3-1b-millandj\\CC31N-TeamName\\TheValiant\\TheValient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\cc3-1b-millandj\\CC31N-TeamName\\TheValient\\TheValient.csproj",
+        "projectUniqueName": "C:\\cc3-1b-millandj\\CC31N-TeamName\\TheValiant\\TheValient.csproj",
         "projectName": "TheValient",
-        "projectPath": "C:\\cc3-1b-millandj\\CC31N-TeamName\\TheValient\\TheValient.csproj",
+        "projectPath": "C:\\cc3-1b-millandj\\CC31N-TeamName\\TheValiant\\TheValient.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\cc3-1b-millandj\\CC31N-TeamName\\TheValient\\obj\\",
+        "outputPath": "C:\\cc3-1b-millandj\\CC31N-TeamName\\TheValiant\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",

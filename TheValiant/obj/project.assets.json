@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\cc3-1b-millandj\\CC31N-TeamName\\TheValient\\TheValient.csproj",
-      "projectName": "TheValient",
-      "projectPath": "C:\\cc3-1b-millandj\\CC31N-TeamName\\TheValient\\TheValient.csproj",
+      "projectUniqueName": "C:\\cc3-1b-millandj\\CC31N-TeamName\\TheValiant\\TheValiant.csproj",
+      "projectName": "TheValiant",
+      "projectPath": "C:\\cc3-1b-millandj\\CC31N-TeamName\\TheValiant\\TheValiant.csproj",
       "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "C:\\cc3-1b-millandj\\CC31N-TeamName\\TheValient\\obj\\",
+      "outputPath": "C:\\cc3-1b-millandj\\CC31N-TeamName\\TheValiant\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
