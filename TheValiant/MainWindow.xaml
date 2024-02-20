@@ -10,13 +10,74 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
-            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="250"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinitions Width="250"/>
-            <ColumnDefinitions Width="*"/>
-            <ColumnDefinitions Width="250"/>
+            <ColumnDefinition Width="250"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="250"/>
         </Grid.ColumnDefinitions>
+        
+        <Label Grid.Row="0" Grid.Column="0" Content="Menu" Background="AliceBlue" Grid.ColumnSpan="3"/>
+        
+        <!-- Player Information -->
+        <Grid Grid.Row="1" Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <!-- Player Stats -->
+            <Grid Grid.Row="0" Grid.Column="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Row="0" Grid.Column="0" Content="Name: "/>
+                <Label Grid.Row="1" Grid.Column="0" Content="Class: "/>
+                <Label Grid.Row="2" Grid.Column="0" Content="HitPoints: "/>
+                <Label Grid.Row="3" Grid.Column="0" Content="Gold: "/>
+                <Label Grid.Row="4" Grid.Column="0" Content="XP: "/>
+                <Label Grid.Row="5" Grid.Column="0" Content="Level: "/>
+                <Label Grid.Row="0" Grid.Column="1" Content="{Binding CurrentPlayer.Name}"/>
+                <Label Grid.Row="1" Grid.Column="1" Content="{Binding CurrentPlayer.CharacterClass}"/>
+                <Label Grid.Row="2" Grid.Column="1" Content="{Binding CurrentPlayer.HitPoints}"/>
+                <Label Grid.Row="3" Grid.Column="1" Content="{Binding CurrentPlayer.Gold}"/>
+                <Label Grid.Row="4" Grid.Column="1" Content="{Binding CurrentPlayer.ExperiencePoints}"/>
+                <Label Grid.Row="5" Grid.Column="1" Content="{Binding CurrentPlayer.Level}"/>
+            </Grid>
+            <!--<Label Grid.Row="0" Grid.Column="0" Content="Player Stats" Background="AntiqueWhite"/>-->
+            <Label Grid.Row="1" Grid.Column="0" Content="Player Image" Background="AntiqueWhite"/>
+        </Grid>
+
+        <Label Grid.Row="2" Grid.Column="0" Content="Player Inventory/Quest" Background="Aqua"/>
+        <Label Grid.Row="1" Grid.Column="1" Content="Game messages" Background="Aquamarine"/>
+        <!-- Item/Action Buttons-->
+        <Grid Grid.Row="2" Grid.Column="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+        <Label Grid.Row="2" Grid.Column="1" Content="Item Action buttons" Background="Bisque"/>
+        <Label Grid.Row="2" Grid.Column="0" Content="Item image" Background="Bisque"/>
+        </Grid>
+        <!-- Location and Enemy Information-->
+        <Grid Grid.Row="1" Grid.Column="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+        <Label Grid.Row="0" Grid.Column="0" Content="Location information" Background="Azure"/>
+        <Label Grid.Row="1" Grid.Column="0" Content="enemy information" Background="Azure"/>
+        </Grid>
+        <Label Grid.Row="2" Grid.Column="2" Content="Navigation buttons" Background="Beige"/>
 
     </Grid>
 </Window>
